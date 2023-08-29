@@ -1,0 +1,192 @@
+/**GLOBAL STYLES**/
+body {
+  background: #DAF7F6;
+  color: #3B3B3B;
+  font-family: 'Open sans', sans-serif;
+  font-size: 12px;
+  line-height: 16px;
+
+ }
+
+h2 {
+  font-size: 24px;
+
+}
+
+h3 {
+  font-size: 20px;
+  border-top: 1px solid #3B3B3B;
+  border-bottom: 1px solid #3B3B3B;
+  padding: 5px;
+  margin: 0;
+
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  color: #F16059;
+
+}
+
+/**header**/
+header {
+  background: white;
+  text-align: center;
+  width: 1000px;
+  margin: 0 auto;
+
+}
+
+h1 {
+  display: inline-block;
+  padding: 40px 0;
+  margin: 0;
+  font-size: 48px;
+
+}
+
+header img {
+  margin-right: 16px;
+
+}
+
+/*main*/
+main {
+  width: 1000px;
+  margin: 0 auto;
+
+}
+
+.card {
+  background: #FFFFFF;
+  margin: 20px 0;
+  overflow: auto;
+
+}
+
+.image {
+  float: left;
+  width: 50%;
+  height: 550px;
+
+}
+
+#cookies .image {
+  background: url('../img/gluten-free-sugar-cookies.jpg');
+  background-size: cover;
+
+}
+
+#pesto .image {
+  background: url('../img/nut-free-pesto.jpg');
+  background-size: cover;
+
+}
+
+#salad .image {
+  background: url('../img/watermelon-salad.jpg');
+  background-size: cover;
+
+}
+
+.recipe {
+  margin: 0;
+  padding-left: 20px;
+  width: 50%;
+  height: 550px;
+  float: left;
+  background: #ffffff;
+  box-sizing: border-box;
+
+}
+
+.time {
+  overflow: auto;
+  border: 1px solid #3B3B3B;
+  width: 95%;
+
+}
+
+.description {
+  width: 97%;
+  margin-bottom: 40px;
+
+}
+
+.prep,
+.cook,
+.total {
+  float: left;
+  text-transform: uppercase;
+  padding: 10px 5px;
+  width: 33.3%;
+  box-sizing: border-box;
+  vertical-align: middle;
+
+}
+
+.cook {
+  border-left: 1px solid #3B3B3B;
+  border-right: 1px solid #3B3B3B;
+
+}
+
+strong {
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+.prep img,
+.cook img,
+.total img {
+  display: inline-block;
+  float: left;
+  width: 10%;
+  padding-right: 5px;
+  vertical-align: middle;
+
+}
+
+.time-details {
+  float: left;
+  margin: 0;
+
+}
+
+.columns {
+  overflow: auto;
+  width: 100%;
+
+}
+
+.ingredients {
+  float: left;
+  width: 40%;
+  margin-right: 20px;
+
+}
+
+.directions {
+  float: left;
+  width: 50%;
+
+}
+
+ul {
+  line-height: 24px;
+  list-style: square;
+  display: inline-block;
+  padding-left: 20px;
+
+}
+
+ol {
+  line-height: 22px;
+  list-style: decimal;
+  display: inline-block;
+  padding-left: 20px;
+
+}
